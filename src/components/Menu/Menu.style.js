@@ -18,6 +18,7 @@ export const MenuContainer = styled.article`
 export const LogoContainer = styled.section`
     display: flex;
     align-items: end;
+    margin-bottom: 53px;
 `;
 
 export const Logo = styled.img`
@@ -34,7 +35,7 @@ export const Version = styled.p`
 `;
 
 export const MenuList = styled.ul`
-
+    flex-grow: 2;
 `;
 
 export const MenuCategoryIcon = styled.div`

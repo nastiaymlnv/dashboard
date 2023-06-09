@@ -1,10 +1,17 @@
+import React from "react";
+
+import Costumers from "./pages/Costumers";
+
 import Menu from './components/Menu';
-import Content from './components/Content';
 
 import GlobalFonts from './assets/fonts/fonts';
 import GlobalStylesReset from './assets/reset';
-import {PageContainer} from './App.style.js';
 
+import {
+  PageContainer,
+  ContentContainer,
+  GreetingMsg
+} from './App.style.js';
 
 function App() {
   return (
@@ -13,7 +20,14 @@ function App() {
       <GlobalStylesReset />
       <PageContainer>
         <Menu />
-        <Content />
+        <ContentContainer>
+          <GreetingMsg>
+            Hello Evano
+            <span role="img" aria-label="sheep">👋🏼</span>
+            ,
+          </GreetingMsg>
+          <Costumers />
+        </ContentContainer>
       </PageContainer>
     </>
   );
