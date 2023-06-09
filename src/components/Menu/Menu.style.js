@@ -37,6 +37,19 @@ export const MenuList = styled.ul`
 
 `;
 
+export const MenuCategoryIcon = styled.div`
+    margin-right: 14px;
+    display: flex;
+    align-items: center;
+`;
+
+export const Arrow = styled.div`
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 8px;
+`;
+
 export const MenuListItem = styled.li`
     ${FontProp};
     font-size: 14px;
@@ -48,32 +61,26 @@ export const MenuListItem = styled.li`
     align-items: center;
     position: relative;
 
-    &:after{
-        /* content: url('../../img/right-arrow.svg'); */
-        background: url('../../img/right-arrow.svg');
-        width: 16px;
-        height: 16px;
-        stroke: yellowgreen;
-        background-color: yellowgreen;
-        right: 8px;
-        position: absolute;
-    }
-
     &:hover{
         cursor: pointer;
         background-color: #5932EA;
         border-radius: 8px;
         color: #FFFFFF;
+        stroke: white;
     }
-`;
 
-export const MenuCategoryIcon = styled.img`
-    margin-right: 14px;
-`;
+    &:hover ${MenuCategoryIcon} {
+        & path{
+            stroke: white;
+            /* fill: white; */
+        }
+    }
 
-export const Arrow = styled.img`
-    width: 16px;
-    height: 16px;
+    &:hover ${Arrow} {
+        & path{
+            stroke: white;
+        }
+    }
 `;
 
 export const MenuUserContainer = styled.article`
