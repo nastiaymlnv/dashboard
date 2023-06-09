@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/dashboard/static/css/main.073c9b0a.css",
-    "main.js": "/dashboard/static/js/main.9b162648.js",
-    "static/js/787.545aecf5.chunk.js": "/dashboard/static/js/787.545aecf5.chunk.js",
-    "static/media/logo.svg": "/dashboard/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.js": "/dashboard/static/js/main.d48e8673.js",
+    "static/media/poppins-v20-latin-600.woff": "/dashboard/static/media/poppins-v20-latin-600.25ea813988479bcb587a.woff",
+    "static/media/poppins-v20-latin-regular.woff": "/dashboard/static/media/poppins-v20-latin-regular.f61407da33b59324fbef.woff",
+    "static/media/poppins-v20-latin-500.woff": "/dashboard/static/media/poppins-v20-latin-500.8609f9c59114a158e3ad.woff",
+    "static/media/poppins-v20-latin-600.woff2": "/dashboard/static/media/poppins-v20-latin-600.91145014c0350c248ed2.woff2",
+    "static/media/poppins-v20-latin-regular.woff2": "/dashboard/static/media/poppins-v20-latin-regular.405055dd680fa1dcdfa2.woff2",
+    "static/media/poppins-v20-latin-500.woff2": "/dashboard/static/media/poppins-v20-latin-500.08491d3f7fe7ae88ef44.woff2",
+    "static/media/promote-icon.svg": "/dashboard/static/media/promote-icon.5230029f4e637c534c143c4d95cf421f.svg",
+    "static/media/income-icon.svg": "/dashboard/static/media/income-icon.25d824b57e5c5a753432296807e7285d.svg",
+    "static/media/product-icon.svg": "/dashboard/static/media/product-icon.1ca4fd5b650bd0a4104c1a2789ca1171.svg",
+    "static/media/help-icon.svg": "/dashboard/static/media/help-icon.5d23912a887f9edc9d9f8d957ec960e6.svg",
+    "static/media/customers-icon.svg": "/dashboard/static/media/customers-icon.8262755cd49eb6fddb7f6d00ddf93ef8.svg",
+    "static/media/dashboard-icon.svg": "/dashboard/static/media/dashboard-icon.153a0eb179be0548729792a4f21fc52e.svg",
     "index.html": "/dashboard/index.html",
-    "main.073c9b0a.css.map": "/dashboard/static/css/main.073c9b0a.css.map",
-    "main.9b162648.js.map": "/dashboard/static/js/main.9b162648.js.map",
-    "787.545aecf5.chunk.js.map": "/dashboard/static/js/787.545aecf5.chunk.js.map"
+    "static/media/search-icon.svg": "/dashboard/static/media/search-icon.d555a35800fec6f7c1928aef95546ef7.svg",
+    "static/media/right-arrow.svg": "/dashboard/static/media/right-arrow.618c411d724ff239093f3539c12387f1.svg",
+    "main.d48e8673.js.map": "/dashboard/static/js/main.d48e8673.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.9b162648.js"
+    "static/js/main.d48e8673.js"
   ]
 }
